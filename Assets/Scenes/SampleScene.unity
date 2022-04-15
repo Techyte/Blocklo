@@ -181,9 +181,9 @@ PolygonCollider2D:
   m_AutoTiling: 0
   m_Points:
     m_Paths:
-    - - {x: -21.2, y: -10.5}
+    - - {x: -13.94541, y: -10.499999}
       - {x: -0.5, y: -0.5}
-      - {x: 20.2, y: -10.5}
+      - {x: 12.032751, y: -10.47056}
 --- !u!114 &93643676
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1971,9 +1971,11 @@ PolygonCollider2D:
   m_AutoTiling: 0
   m_Points:
     m_Paths:
-    - - {x: -21.2, y: -10.5}
+    - - {x: -21.6, y: -10.5}
+      - {x: -14.08865, y: -10.487657}
       - {x: -0.5, y: -0.5}
-      - {x: -21.2, y: 9.5}
+      - {x: -14.637822, y: 9.448358}
+      - {x: -21.6, y: 9.5}
 --- !u!114 &1352743516
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2045,9 +2047,9 @@ PolygonCollider2D:
   m_AutoTiling: 0
   m_Points:
     m_Paths:
-    - - {x: 20.2, y: 9.5}
+    - - {x: 13.180939, y: 9.5}
       - {x: -0.5, y: -0.5}
-      - {x: -21.2, y: 9.5}
+      - {x: -14.563667, y: 9.470559}
 --- !u!114 &1446730771
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2710,9 +2712,11 @@ PolygonCollider2D:
   m_AutoTiling: 0
   m_Points:
     m_Paths:
-    - - {x: 20.2, y: 9.5}
+    - - {x: 20.5188, y: 9.535031}
+      - {x: 13.039303, y: 9.537063}
       - {x: -0.5, y: -0.5}
-      - {x: 20.2, y: -10.5}
+      - {x: 11.970731, y: -10.426369}
+      - {x: 20.6, y: -10.5}
 --- !u!114 &1853424769
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3004,7 +3008,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &2114293804
 RectTransform:
   m_ObjectHideFlags: 0

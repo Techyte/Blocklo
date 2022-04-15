@@ -16,7 +16,32 @@ public class GridMovement : MonoBehaviour
 
     void Update()
     {
+        /*
+        if (right.isTouched || Input.GetKey(KeyCode.W) && !isMoving && canMove)
+        {
+            StartCoroutine(MovePlayer(Vector3.up));
+        }
+
+        if (left.isTouched || Input.GetKey(KeyCode.A) && !isMoving && canMove)
+        {
+            StartCoroutine(MovePlayer(Vector3.left));
+        }
+
+        if (down.isTouched || Input.GetKey(KeyCode.S) && !isMoving && canMove)
+        {
+            StartCoroutine(MovePlayer(Vector3.down));
+        }
+
+        if (up.isTouched || Input.GetKey(KeyCode.D) && !isMoving && canMove)
+        {
+            StartCoroutine(MovePlayer(Vector3.right));
+        }
+        */
+
         if (right.isTouched && !isMoving && canMove)
+        {
+            StartCoroutine(MovePlayer(Vector3.up));
+        }else if(Input.GetKey(KeyCode.W) && !isMoving && canMove)
         {
             StartCoroutine(MovePlayer(Vector3.up));
         }
@@ -25,13 +50,25 @@ public class GridMovement : MonoBehaviour
         {
             StartCoroutine(MovePlayer(Vector3.left));
         }
+        else if (Input.GetKey(KeyCode.A) && !isMoving && canMove)
+        {
+            StartCoroutine(MovePlayer(Vector3.left));
+        }
 
         if (down.isTouched && !isMoving && canMove)
         {
             StartCoroutine(MovePlayer(Vector3.down));
         }
+        else if (Input.GetKey(KeyCode.S) && !isMoving && canMove)
+        {
+            StartCoroutine(MovePlayer(Vector3.down));
+        }
 
         if (up.isTouched && !isMoving && canMove)
+        {
+            StartCoroutine(MovePlayer(Vector3.right));
+        }
+        else if (Input.GetKey(KeyCode.D) && !isMoving && canMove)
         {
             StartCoroutine(MovePlayer(Vector3.right));
         }

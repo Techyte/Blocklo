@@ -55,10 +55,12 @@ public class MapManager : MonoBehaviour
             }
         }
 
+#if !PLATFORM_WEBGL
         if (Input.GetKeyDown(KeyCode.Escape))
         {
             Application.Quit();
         }
+#endif
 
         TileBase currentTile = map.GetTile(new Vector3Int(Mathf.RoundToInt(player.position.x - 0.5f), Mathf.RoundToInt(player.position.y - 0.5f)));
         Vector3Int currentTilePos = new Vector3Int(Mathf.RoundToInt(player.position.x - 0.5f), Mathf.RoundToInt(player.position.y - 0.5f));
